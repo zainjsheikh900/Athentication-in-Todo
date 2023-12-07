@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20220511/pngtree-sunset-view-nice-sea-view-photo-image_397660.jpg'); /* Add your image file path here */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff ;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            padding: 50px;
+            border-radius: 0px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-weight: bolder;
+            margin: auto;
+            padding: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+        }
+        input:hover{
+          background-color: wheat;
+
+
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: grey;
+        }
+          
+    </style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <input placeholder="Email" id="email">
+        <br>
+        <input type="password" placeholder="Password" id="password">
+        <br><br>
+        <button id="register_btn">Register</button>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
